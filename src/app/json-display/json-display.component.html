@@ -1,0 +1,10 @@
+<div>
+  <h1>All Comments</h1>
+  <div *ngFor="let comment of allJsonComments; index as i">
+    <div><strong>POST ID:</strong> {{comment.postId}}</div>
+    <div><strong>ID:</strong> {{comment.id}}</div>
+    <div><strong>Name:</strong> {{comment.name}}</div>
+    <div><strong>Email:</strong> {{comment.email}}</div>
+    <div><strong>Body: </strong> {{comment.body}}</div>
+  </div>
+</div>
